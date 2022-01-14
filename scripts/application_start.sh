@@ -1,5 +1,5 @@
 #!/bin/bash
+source /home/ec2-user/.bash_profile
 
-# Stop all servers and start the server as a daemon
-pm2 stop all
+npm install
 pm2 start ./bin/www
