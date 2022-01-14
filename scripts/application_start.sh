@@ -1,5 +1,4 @@
 #!/bin/bash
-source /home/ec2-user/.bash_profile
+[ -s "/.nvm/nvm.sh" ] && \. "/.nvm/nvm.sh"
 
-sudo npm install
-sudo pm2 start ./bin/www
+npm install
