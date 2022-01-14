@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /hello
+    destination: /home/ec2-user/hello
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh
