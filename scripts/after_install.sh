@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /hello
+cd /home/ec2-user/hello
