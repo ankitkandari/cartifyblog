@@ -5,8 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express JS this fucking is working' });
 });
-router.get('/fuckluck', function(req, res, next) {
-    res.render('index', { title: 'Fuck did it' });
+router.get('/thankgod', function(req, res, next) {
+    res.render('index', { title: 'Thankyou god for making me blessed' });
 });
 
 module.exports = router;
