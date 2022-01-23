@@ -16,7 +16,7 @@ const registerUser = (req, res) => {
     else {
         User.findOne({ email })
             .then((user) => {
-                if (user) res.render("register", { message: "Email already exists" });
+                if (user) res.render("/auth/register", { message: "Email already exists" });
                 else {
                     const newUser = new User({ name, email, password });
                     bcrypt.genSalt(10, (err, salt) => {
